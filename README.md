@@ -54,7 +54,7 @@ We propose the efficient sliding-window-based strategy for calculating the corre
 
 
 
-### Coomparing with baselines
+### Comparing with Recent Start-of-the-art Methods
 
 <p align="center">
 <img src="assets/repo_figures/Picture5.jpg" width="1080px"/>
