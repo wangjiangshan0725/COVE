@@ -13,8 +13,9 @@ This repository is the official Pytorch implementation for [COVE](https://arxiv.
 > [Xiu Li](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=en&oi=ao),
 
 
-<p align="center">
+<p>
 <img src="assets/repo_figures/Picture1.jpg" width="1080px"/>
+
 Video editing is an emerging task, in which most current methods adopt the pre-trained text-to-image (T2I) diffusion model to edit the source video in a zero-shot manner. Despite extensive efforts, maintaining the temporal consistency of edited videos remains challenging due to the lack of temporal constraints in the regular T2I diffusion model. To address this issue, we propose COrrespondence-guided Video Editing (COVE), leveraging the inherent diffusion feature correspondence to achieve high-quality and consistent video editing. Specifically, we propose an efficient sliding-window-based strategy to calculate the similarity among tokens in the diffusion features of source videos, identifying the tokens with high correspondence across frames. During the inversion and denoising process, we sample the tokens in noisy latent based on the correspondence and then perform self-attention within them. To save GPU memory usage and accelerate the editing process, we further introduce the temporal-dimensional token merging strategy, which can effectively reduce redundancy. COVE can be seamlessly integrated into the pre-trained T2I diffusion model without the need for extra training or optimization. Extensive experiment results demonstrate that COVE achieves the start-of-the-art performance in various video editing scenarios, outperforming existing methods both quantitatively and qualitatively.
 </p>
 
@@ -28,14 +29,16 @@ Video editing is an emerging task, in which most current methods adopt the pre-t
 
 ## Method
 ### Overview
-<p align="center">
+<p>
 <img src="assets/repo_figures/Picture2.jpg" width="1080px"/>
+
 We propose correspondence guided video editing. Given a source video, we firstly extract the diffusion feature for each frame and calculate the correspondence among the tokens across frames. During the inversion and denoising process, the tokens are sampled based on their correspondence relationship. Through the self-attention among the corresponded tokens across frames, the quality and temporal consistency of edited videos are both significantly enhanced.
 </p>
 
 ### Sliding-window-based Strategy
-<p align="center">
+<p>
 <img src="assets/repo_figures/Picture3.jpg" width="1080px"/>
+
 We propose the efficient sliding-window-based strategy for calculating the correspondence relationship among tokens in the diffusion feature of the source video, which can greatly reduce the computational comlexity.
 </p>
 
