@@ -72,6 +72,9 @@ If you find our work helpful, please **star 🌟** this repo and **cite 📑** o
   journal={arXiv preprint arXiv:2406.08850},
   year={2024}
 }
+
+## Contact
+If you have any questions or concerns about the paper and code, please send email to wjs23@mails.tsinghua.edu.cn, Thanks!
 ```
 
 
