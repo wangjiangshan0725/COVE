@@ -73,12 +73,11 @@ If you find our work helpful, please **star 🌟** this repo and **cite 📑** o
   year={2024}
 }
 
-## Contact
-If you have any questions or concerns about the paper and code, please send email to wjs23@mails.tsinghua.edu.cn, Thanks!
+
 ```
 
 
 ## Contact
-wjs23 at mails dot tsinghua dot edu dot cn
+If you have any questions or concerns about the paper and code, please send email to wjs23@mails.tsinghua.edu.cn, Thanks!
 
 
