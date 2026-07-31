@@ -23,7 +23,7 @@ Video editing is an emerging task, in which most current methods adopt the pre-t
 - [2024.6.13] Paper released!
 
 ## ToDo
-- □ Release code
+- Release code (https://drive.google.com/file/d/1b_S1AtSJvWIwP2Gp5uanxR1-RweUBVY2/view?usp=drive_link)
 
 
 
